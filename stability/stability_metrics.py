@@ -8,10 +8,10 @@ from vis_utils.mesh_utils import GMoF_unscaled, HDfier
 import pickle as pkl
 import time
 
-SMPL_PART_BOUNDS = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/smplify-xmc-support/data/essentials/yogi_segments/smpl/part_meshes_ply/smpl_segments_bounds.pkl'
-FID_TO_PART = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/smplify-xmc-support/data/essentials/yogi_segments/smpl/part_meshes_ply/fid_to_part.pkl'
-PART_VID_FID = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/smplify-xmc-support/data/essentials/yogi_segments/smpl/part_meshes_ply/smpl_part_vid_fid.pkl'
-HD_SMPL_MAP  = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/smplify-xmc-support/data/essentials/hd_model/smpl/smpl_neutral_hd_sample_from_mesh_out.pkl'
+SMPL_PART_BOUNDS = 'data/essentials/yogi_segments/smpl/part_meshes_ply/smpl_segments_bounds.pkl'
+FID_TO_PART = 'data/essentials/yogi_segments/smpl/part_meshes_ply/fid_to_part.pkl'
+PART_VID_FID = 'data/essentials/yogi_segments/smpl/part_meshes_ply/smpl_part_vid_fid.pkl'
+HD_SMPL_MAP  = 'data/essentials/hd_model/smpl/smpl_neutral_hd_sample_from_mesh_out.pkl'
 
 def stability_error(vertices, faces, contact_thresh, cop_w=10, cop_k=100):
     with torch.no_grad():

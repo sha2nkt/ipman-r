@@ -1,9 +1,7 @@
-YOGA82_PATH = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/data/Yoga-82/yoga_dataset_images'
-IOI_PATH = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/data/Yogi-IOI/yoga_dataset_images'
-ESSENTIALS_DIR = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/smplify-xmc-support/data/essentials'
-SMPLX_VERT_SEG = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/utils/meshscripts/smplx_vert_segmentation.json'
-SMPL_VERT_SEG = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/utils/meshscripts/smpl_vert_segmentation.json'
-SEGMENTS_DIR = '/is/cluster/scratch/stripathi/pycharm_remote/yogi/smplify-xmc-support/data/essentials/yogi_segments'
+ESSENTIALS_DIR = 'data/essentials'
+SMPLX_VERT_SEG = 'data/meshscripts/smplx_vert_segmentation.json'
+SMPL_VERT_SEG = 'data/meshscripts/smpl_vert_segmentation.json'
+SEGMENTS_DIR = 'data/essentials/yogi_segments'
 
 frame_select_dict_combined = {
     'Akarna_Dhanurasana-a': 1226,

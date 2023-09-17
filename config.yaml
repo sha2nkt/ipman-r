@@ -8,9 +8,9 @@ resume: False
 num_workers: 16
 pin_memory: True
 
-log_dir: '/is/cluster/scratch/stripathi/pycharm_remote/ipman_regr/logs'
+log_dir: 'logs'
 checkpoint: None
-pretrained_checkpoint: '/is/cluster/scratch/stripathi/pycharm_remote/ipman_regr/data/model_checkpoint.pt'
+pretrained_checkpoint: 'data/model_checkpoint.pt'
 num_epochs: 200
 lr: 1e-5
 

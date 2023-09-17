@@ -21,7 +21,7 @@ from utils.pose_utils import reconstruction_error, compute_accel, compute_error_
 from utils.renderer import Renderer
 # from utils.part_utils import PartRenderer
 from stability.ground_losses import StabilityLossCoP, GroundLoss
-from vis_utils.world_vis import vis_smpl_with_ground, vis_vert_with_ground
+from vis_utils.world_vis import vis_vert_with_ground
 
 import config
 import constants

@@ -19,18 +19,18 @@ from yacs.config import CfgNode as CN
 from typing import Dict, List, Union, Any
 from flatten_dict import flatten, unflatten
 
-# Please fill in the correct paths
-H36M_ROOT = '/ps/scratch/ps_shared/mkocabas/human36m'
-RICH_ROOT = '/ps/scratch/ps_shared/stripathi/4yogi/RICH/'
-LSP_ROOT = '/ps/project/datasets/LSP'
-LSP_ORIGINAL_ROOT = '/ps/project/datasets/LSP_ORIGINAL'
-LSPET_ROOT = '/ps/scratch/ps_shared/mkocabas/datasets/hr-lspet'
-MPII_ROOT = '/ps/project/datasets/MPII-pose'
-COCO_ROOT = '/ps/project/datasets/COCO/images'
-MPI_INF_3DHP_ROOT = '/ps/project/datasets/mpi_inf_3dhp'
-PW3D_ROOT = '/ps/project/datasets/3DPW___v1'
+# Please update your own paths to dataset folders here:
+H36M_ROOT = 'data/human36m'
+RICH_ROOT = 'data/RICH/'
+LSP_ROOT = 'data/LSP'
+LSP_ORIGINAL_ROOT = 'data/LSP_ORIGINAL'
+LSPET_ROOT = 'data/hr-lspet'
+MPII_ROOT = 'data/MPII-pose'
+COCO_ROOT = 'data/COCO/images'
+MPI_INF_3DHP_ROOT = 'data/mpi_inf_3dhp'
+PW3D_ROOT = 'data/3DPW___v1'
 UPI_S1H_ROOT = ''
-AGORA_ROOT = '/mnt/efs-shared/shatripa_code/human/agora_data/50mm_zoom/images'
+AGORA_ROOT = ''
 
 # Output folder to save test/train npz files
 DATASET_NPZ_PATH = 'data/dataset_extras'

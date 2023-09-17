@@ -1,6 +1,6 @@
 import json
 import os
-os.environ["CDF_LIB"] = "/is/cluster/scratch/stripathi/data/cdf37_1-dist/src/lib"
+os.environ["CDF_LIB"] = "data/cdf37_1-dist/src/lib"
 import sys
 import cv2
 import glob
