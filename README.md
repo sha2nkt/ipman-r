@@ -5,7 +5,7 @@
 > [Shashank Tripathi](https://sha2nkt.github.io), [Lea M&uuml;ller](https://ps.is.mpg.de/person/lmueller2), [Chun-Hao Paul Huang](https://ps.is.mpg.de/person/chuang2), [Omid Taheri](https://www.is.mpg.de/person/otaheri), [Michael J. Black](https://ps.is.tuebingen.mpg.de/person/black), [Dimitrios Tzionas](https://ps.is.tuebingen.mpg.de/person/dtzionas)  
 > *IEEE Computer Vision and Pattern Recognition (CVPR), 2023*
 
-[ [Project Page](https://ipman.is.tue.mpg.de) ] [ [Paper](https://arxiv.org/abs/2303.18246) ] [ [Video](https://www.youtube.com/watch?v=Dufvp_O0ziU) ] [ [Poster](https://drive.google.com/file/d/1n8QeOI_WRqcVDUMrB-lG2NCJURhBjppG/view?usp=sharing) ] [ [Data (MoYo)](https://moyo.is.tue.mpg.de/) ] [ [License](https://ipman.is.tue.mpg.de/license.html) ] [ [Contact](mailto:ipman@tue.mpg.de) ]
+[[Project Page](https://ipman.is.tue.mpg.de)] [[Paper](https://arxiv.org/abs/2303.18246)] [[Video](https://www.youtube.com/watch?v=Dufvp_O0ziU)] [[Poster](https://drive.google.com/file/d/1n8QeOI_WRqcVDUMrB-lG2NCJURhBjppG/view?usp=sharing)] [[Data (MoYo)](https://moyo.is.tue.mpg.de/)] [[License](https://ipman.is.tue.mpg.de/license.html)] [[Contact](mailto:ipman@tue.mpg.de)]
 
 ![teaser](assets/main_teaser_cropped.gif)
 
